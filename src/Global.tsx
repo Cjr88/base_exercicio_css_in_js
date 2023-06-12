@@ -1,8 +1,6 @@
-:root {
-  --cor-principal: #a7727d;
-  --cor-secundaria: #f9f5e7;
-}
+import { createGlobalStyle } from 'styled-components'
 
+const GlobalStyle = createGlobalStyle`
 * {
   margin: 0;
   padding: 0;
@@ -26,3 +24,6 @@ body {
     max-width: 80%;
   }
 }
+`
+
+export default GlobalStyle
